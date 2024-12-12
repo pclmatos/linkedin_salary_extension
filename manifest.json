@@ -1,0 +1,14 @@
+{
+	"name": "LinkedIn Salary Finder Extension",
+	"description": "Extension that finds the salary range for a specific job listing in LinkedIn.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup/popup.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"host_permissions": ["https://www.linkedin.com/jobs/**"],
+	"permissions": ["scripting", "activeTab"]
+}

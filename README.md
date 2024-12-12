@@ -1,1 +1,1 @@
-# linkedin_salary_extension
+# LinkedIn salary chrome extension
